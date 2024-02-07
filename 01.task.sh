@@ -7,7 +7,7 @@
 
 DATE=$(date +%F)
 SCRIPT_NAME=$0
-LOGS_DIR=/home/centos/tmp/
+LOGS_DIR=/home/centos/
 LOGFILE=$LOGS_DIR/$0-$DATE.log
 
 VALIDATE(){
