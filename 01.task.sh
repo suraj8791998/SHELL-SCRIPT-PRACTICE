@@ -13,9 +13,9 @@ LOGFILE=$LOGS_DIR/$0-$DATE.log
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-      echo "PACKAGE INSTALLATION IS SUCCESS"
-    else
       echo "PACKAGE INSTALLATION IS FAILURE"
+    else
+      echo "PACKAGE INSTALLATION IS SUCCESS"
     fi
 }
 
