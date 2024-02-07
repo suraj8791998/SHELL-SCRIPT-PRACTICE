@@ -20,7 +20,7 @@ VALIDATE(){
 }
 
 USERID=(id -u)
-if [ $USERID -ne 0 ]
+if [ $USERID -ne 0 ];
 then 
    echo "PLEASE SWITCH TO THE ROOT USER"
    exit 1
